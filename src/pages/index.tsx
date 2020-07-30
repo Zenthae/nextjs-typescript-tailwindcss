@@ -1,9 +1,11 @@
+import Link from 'next/link';
 import React, { Component } from 'react';
 
 export default class Index extends Component {
   render(): JSX.Element {
     return (
       <div className='min-h-screen text-center flex flex-col items-center justify-center bg-gray-800 text-white'>
+        <Link href='about'>About</Link>
         <svg
           className='fill-current mx-20'
           viewBox='0 0 283 64'
