@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
+(window["webpackJsonp_N_E"] = window["webpackJsonp_N_E"] || []).push([[0],{
 
 /***/ "./node_modules/next/dist/client/dev/noop.js":
 /*!***************************************************!*\
@@ -18,18 +18,18 @@
     if (typeof self !== 'undefined' &&
         // AMP / No-JS mode does not inject these helpers:
         '$RefreshHelpers$' in self) {
-        var currentExports_1 = module.__proto__.exports;
+        var currentExports = module.__proto__.exports;
         var prevExports = (_b = (_a = module.hot.data) === null || _a === void 0 ? void 0 : _a.prevExports) !== null && _b !== void 0 ? _b : null;
         // This cannot happen in MainTemplate because the exports mismatch between
         // templating and execution.
-        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports_1, module.i);
+        self.$RefreshHelpers$.registerExportsForReactRefresh(currentExports, module.i);
         // A module can be accepted automatically based on its exports, e.g. when
         // it is a Refresh Boundary.
-        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports_1)) {
+        if (self.$RefreshHelpers$.isReactRefreshBoundary(currentExports)) {
             // Save the previous exports on update so we can compare the boundary
             // signatures.
             module.hot.dispose(function (data) {
-                data.prevExports = currentExports_1;
+                data.prevExports = currentExports;
             });
             // Unconditionally accept an update to this module, we'll check if it's
             // still a Refresh Boundary later.
@@ -45,7 +45,7 @@
                 // re-execute the importing modules, and force those components to
                 // re-render. Similarly, if you convert a class component to a
                 // function, we want to invalidate the boundary.
-                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports_1)) {
+                if (self.$RefreshHelpers$.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)) {
                     module.hot.invalidate();
                 }
                 else {
